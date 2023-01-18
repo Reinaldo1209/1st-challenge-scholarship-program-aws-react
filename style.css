@@ -1,19 +1,43 @@
 body{
-    display: flex;
-    background-color: #E5E5E5;
+    background-color: #fff;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-div.a{
-    text-align: center;
+.container{
+    display: flex;
+}
+
+.main{
+    display: inline-block;
+}
+
+.fig{
+    display: inline-block;
 }
 
 a{
     background: #3EB25E;
     border-radius: 35px;
     font-weight: bold;
+    text-align: center;
     color: #FFFF;
-    text-decoration:none
+    text-decoration:none;
+    padding: 2px;
+    display: block;
+}
+
+.sm{
+    width: 180px;
+    height: 23px;
+}
+
+section{
+    outline: solid #3EB25E 1px;
+}
+
+.position{
+    padding: 10px 20px 50px 100px;
+    outline: solid #3EB25E 1px;
 }
 
 a:hover{
@@ -23,9 +47,4 @@ a:hover{
 
 h1,h2,h3,h4{
     text-align: center;
-}
-
-textarea{
-    box-sizing: border-box;
-    position: absolute;
 }
