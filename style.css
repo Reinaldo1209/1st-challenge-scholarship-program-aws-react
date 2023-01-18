@@ -9,6 +9,8 @@ body{
 
 .main{
     display: inline-block;
+    max-width: 600px;
+    margin: 50px;
 }
 
 .fig{
@@ -47,4 +49,11 @@ a:hover{
 
 h1,h2{
     text-align: center;
+    margin-left: 0px;
+}
+
+h1{
+    text-transform: lowercase;
+    font-size: 100px;
+    margin-block: 20px;
 }
