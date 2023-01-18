@@ -30,10 +30,46 @@ a:hover{
     color: black;
 }   
 
-h1,h2,h3,h4{
+h1,h2{
     text-align: center;
 }
 
-input[type = "email"],input[type = text],textarea{
-    border-radius: 20px;
+
+input[type=checkbox] + label {
+    display: block;
+    padding: 0.1em;
 }
+    
+input[type=checkbox] {
+    display: none;
+}
+    
+input[type=checkbox] + label:before {
+    content: "\2714";
+    border-radius: 5px;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right: 0.2em;
+    color: transparent;
+    background-color: rgba(62, 178, 94, 0.3);
+    transition: 0.5s
+}
+    
+input[type=checkbox] + label:active:before {
+    transform: scale(0);
+}
+    
+input[type=checkbox]:checked + label:before {
+    background-color: #3EB25E;
+}
+
+input[type=checkbox]:hover + label:before {
+    background-color: #3EB25E;
+    transition: 0.1s;
+}
+    
+ 
+    
