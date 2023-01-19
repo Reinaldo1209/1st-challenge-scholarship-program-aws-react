@@ -9,16 +9,25 @@ body{
     background-color: #fff;
 }
 
+
 main{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    padding: 50px;
+    padding: 20px;
     width: 100%;
 }
 
 .main{
-    padding-top: 10%;
+    margin-left: 12%;
+    margin-top: 10%;
+}
+
+@media screen and(max-width:800px){
+    .main{
+        margin-left: -2%;
+        margin-top: 0%;
+    }
 }
 
 a{
@@ -28,23 +37,31 @@ a{
     text-align: center;
     color: #FFFF;
     text-decoration:none;
-    padding: 2px;
+    padding: 6px;
     display: block;
+    margin-top: -20px;
+    margin-left: -22px;
 }
 
 .sm{
     width: 180px;
-    height: 23px;
+    height: 36px;
 }
 
-
-
 .position{
-    padding: 100px 100px 50px 100px;
-    outline: solid #3EB25E 1px; 
+    padding: 80px 100px 50px 100px;
     margin: auto;
     max-height: 500px;
     height: 100%;
+}
+
+@media screen and(max-width:800px) {
+    .position{
+        padding: 80px 100px 50px 100px;
+        margin: auto;
+        max-height: 500px;
+        height: 100%;
+    }
 }
 
 a:hover{
@@ -54,19 +71,34 @@ a:hover{
 
 h1,h2{
     text-align: center;
-    margin-left: 0px;
+    margin-left: -15px;
 }
+
 
 h1{
     text-transform: lowercase;
     margin-block: 20px;
+    font-size: 100px
+}
+
+@media screen and (max-width: 800px){
+    h1{
+        font-size: 53px;
+    }
 }
 
 img{
     width: 100%;
 }
 
+@media screen and(max-width:650px) {
+    img{
+        width: 70%;
+    }
+}
+
 source{
     width: 280px;
     height: 460px;
+    padding: 0% 20% 0% 0%;
 }

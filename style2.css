@@ -17,6 +17,17 @@ main{
     width: 100%;
 }
 
+.main{
+    margin-left: 12%;
+    margin-top: 10%;
+}
+
+@media screen and(max-width:800px){
+    .main{
+        margin-left: -2%;
+        margin-top: 0%;
+    }
+}
 
 p{
     max-width: 450px;
