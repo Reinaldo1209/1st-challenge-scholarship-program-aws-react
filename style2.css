@@ -17,20 +17,38 @@ main{
     width: 100%;
 }
 
-.main{
-    margin-left: 12%;
-    margin-top: 10%;
+@media screen and(max-width:800px){
+    main{
+        margin-left: 10%;
+}
 }
 
-@media screen and(max-width:800px){
+.main{
+    margin-left: 5%;
+    margin-top: 8%;
+    max-width: 460px;
+}
+
+@media screen and (max-width:800px){
     .main{
-        margin-left: -2%;
-        margin-top: 0%;
+        margin-left: -5%;
+        
     }
 }
 
+
 p{
     max-width: 450px;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 3%;
+}
+
+@media screen and (max-width:800px){
+    p{
+        font-size: 18px;
+    }
+    
 }
 
 a{
@@ -40,15 +58,28 @@ a{
     text-align: center;
     color: #FFFF;
     text-decoration:none;
-    padding: 2px;
+    padding: 6px;
     display: block;
-    margin: 5px;
+    margin-top: 20%;
 }
 
 .sm{
     width: 180px;
+    height: 36px;
+    margin-left: 15%;
+}
+
+@media screen and(max-width:800px){
+    .sm{
+        margin-left: -10%;
+    }
+}
+
+table{
+    width: 380px;
     height: 23px;
 }
+
 
 a:hover{
     background: #FFFF7D;
@@ -57,4 +88,12 @@ a:hover{
 
 h1,h2,h3,h4{
     text-align: center;
+}
+
+h2{
+    font-size: 39px;
+}
+
+source{
+    margin-left: -5%;
 }

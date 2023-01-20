@@ -15,10 +15,13 @@ main{
     margin: auto;
     padding: 50px;
     width: 100%;
-}   
-.inputs{
-    outline: solid #3EB25E 2px;
-    max-width: 450px;
+}
+
+
+.main{
+    max-width: 510px;
+    margin-left: 5%;
+    margin-top: 3%;
 }
 
 a{
@@ -28,14 +31,23 @@ a{
     text-align: center;
     color: #FFFF;
     text-decoration:none;
-    padding: 2px;
+    padding: 6px;
     display: block;
-    margin: 5px;
+    margin-top: 5%;
+}
+
+.sm{
+    width: 180px;
+    height: 36px;
 }
 
 .gr{
-    width: 380px;
-    height: 23px;
+    width: 364px;
+    height: 36px;
+}
+
+table{
+    margin-left: 5%;
 }
 
 a:hover{
@@ -45,6 +57,28 @@ a:hover{
 
 h1,h2{
     text-align: center;
+}
+
+.semnd{
+    display: none;
+}
+
+h3{
+    font-size: 26px;
+    margin-bottom: 5%;
+}
+
+label{
+    font-size: 26px;
+    margin-top: -2%;
+}
+
+select{
+    margin-top: 8%;
+}
+
+img{
+    margin: -5%;
 }
 
 input[type = "email"],input[type = text],textarea{

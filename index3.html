@@ -10,10 +10,13 @@
 <body>
     <main>
         <section>
-            <img src="two.png" alt="" class="img2">
+            <picture>
+                <source media="(max-width: 900px)" srcset="twopq.svg">
+                <img src="two.svg" alt="" class="img1">
+            </picture>
         </section>
     
-        <section class="inputs">
+        <section class="main">
             <h3>What is the status of your account?</h3>
             <label for="a" class="semnd"></label>
             <select name="a" id="a">
@@ -30,7 +33,6 @@
             <label for="operate-bond">Bond market</label><br>
             <input type="radio" id="operate-cryptocurrency" name="operate" value="cryptocurrency">
             <label for="operate-cryptocurrency">Cryptocurrency market</label><br>
-            
             <table>
                 <tr>
                     <td><a href="index2.html" class="sm">Back</a></td>

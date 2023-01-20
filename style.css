@@ -19,13 +19,13 @@ main{
 }
 
 .main{
-    margin-left: 12%;
+    margin-left: 18%;
     margin-top: 10%;
 }
 
-@media screen and(max-width:800px){
+@media screen and (max-width:800px){
     .main{
-        margin-left: -2%;
+        margin-left: 2%;
         margin-top: 0%;
     }
 }
@@ -55,7 +55,7 @@ a{
     height: 100%;
 }
 
-@media screen and(max-width:800px) {
+@media screen and (max-width:800px) {
     .position{
         padding: 80px 100px 50px 100px;
         margin: auto;
@@ -91,7 +91,7 @@ img{
     width: 100%;
 }
 
-@media screen and(max-width:650px) {
+@media screen and (max-width:650px) {
     img{
         width: 70%;
     }
