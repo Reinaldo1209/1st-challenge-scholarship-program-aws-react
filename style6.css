@@ -65,12 +65,41 @@ h1,h2{
 
 h3{
     font-size: 26px;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
+
+
 
 label{
     font-size: 26px;
-    margin-top: -2%;
+    margin-top: 10%;
+}
+
+@media screen and (max-width:1250px){
+    h3,label{
+        font-size: 16px;
+}
+}
+
+@media screen and (max-width:800px){
+    h3{
+        margin-top: 5%;
+}
+}
+
+@media screen and (max-width:800px){
+    .main{
+        margin-left: -5%;
+        font-size: 16px;
+        
+    }
+}
+
+@media screen and(max-width:800px){
+    .sm,.gr{
+        height: 26px;
+        font-size: 16px;
+    }
 }
 
 select{
@@ -81,7 +110,22 @@ img{
     margin: -5%;
 }
 
-input[type = "email"],input[type = text],textarea{
+input[type = "email"],input[type = text]{
     border-radius: 20px;
+    width: 110%;
+    height: 40px;
+    border: solid black 0.8px;
+    margin-bottom: 5.7%;
 }
 
+.age{
+    width: 50%;
+}
+
+@media screen and(max-width:1000px){
+    input[type = "email"],input[type = text]{
+        margin-top: -10%;
+        margin-bottom: 1%;
+        height: 25px;
+    }
+}

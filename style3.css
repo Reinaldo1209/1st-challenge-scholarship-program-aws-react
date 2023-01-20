@@ -24,6 +24,14 @@ main{
     margin-top: 3%;
 }
 
+@media screen and (max-width:800px){
+    .main{
+        margin-left: -5%;
+        font-size: 16px;
+        
+    }
+}
+
 a{
     background: #3EB25E;
     border-radius: 35px;
@@ -44,6 +52,13 @@ a{
 .gr{
     width: 364px;
     height: 36px;
+}
+
+@media screen and(max-width:800px){
+    .sm,.gr{
+        height: 26px;
+        font-size: 16px;
+    }
 }
 
 table{
@@ -73,6 +88,17 @@ label{
     margin-top: -2%;
 }
 
+@media screen and (max-width:1250px){
+    h3,label{
+        font-size: 16px;
+}
+}
+
+@media screen and (max-width:800px){
+    h3{
+        margin-top: 5%;
+}
+}
 select{
     margin-top: 8%;
 }

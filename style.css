@@ -18,6 +18,12 @@ main{
     width: 100%;
 }
 
+@media screen and (max-width:800px){
+    main{
+        margin-left: 6%;
+    }
+}
+
 .main{
     margin-left: 18%;
     margin-top: 10%;
@@ -25,8 +31,9 @@ main{
 
 @media screen and (max-width:800px){
     .main{
-        margin-left: 2%;
+        margin-left: 0%;
         margin-top: 0%;
+        font-size: 16px;
     }
 }
 
@@ -64,6 +71,13 @@ a{
     }
 }
 
+@media screen and(max-width:800px){
+    .sm,.gr{
+        height: 26px;
+        font-size: 16px;
+    }
+}
+
 a:hover{
     background: #FFFF7D;
     color: black;
@@ -74,16 +88,21 @@ h1,h2{
     margin-left: -15px;
 }
 
-
 h1{
     text-transform: lowercase;
     margin-block: 20px;
     font-size: 100px
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1200px){
     h1{
         font-size: 53px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    h2{
+        font-size: 24px;
     }
 }
 
@@ -91,9 +110,9 @@ img{
     width: 100%;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:900px) {
     img{
-        width: 70%;
+        margin-left: -20%;
     }
 }
 

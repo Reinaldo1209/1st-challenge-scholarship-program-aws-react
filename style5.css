@@ -39,6 +39,7 @@ a{
 .sm{
     width: 180px;
     height: 36px;
+    margin-top: 20%;
 }
 
 .gr{
@@ -68,6 +69,33 @@ h3{
     margin-bottom: 5%;
 }
 
+@media screen and (max-width:1200px){
+    h3,label{
+        font-size: 16px;
+}
+}
+
+@media screen and (max-width:800px){
+    h3{
+        margin-top: 5%;
+}
+}
+
+@media screen and (max-width:800px){
+    .main{
+        margin-left: -5%;
+        font-size: 16px;
+        
+    }
+}
+
+@media screen and(max-width:800px){
+    .sm,.gr{
+        height: 26px;
+        font-size: 16px;
+    }
+}
+
 label{
     font-size: 26px;
     margin-top: -2%;
@@ -84,5 +112,11 @@ img{
 
 input[type = "email"],input[type = text],textarea{
     border-radius: 20px;
+}
+
+textarea{
+    width: 100%;
+    height: 60%;
+    padding: 20px;
 }
 
