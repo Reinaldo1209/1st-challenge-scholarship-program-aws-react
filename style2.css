@@ -36,7 +36,6 @@ main{
     }
 }
 
-
 p{
     max-width: 450px;
     text-align: center;
@@ -87,7 +86,6 @@ table{
     height: 23px;
 }
 
-
 a:hover{
     background: #FFFF7D;
     color: black;
@@ -99,8 +97,4 @@ h1,h2,h3,h4{
 
 h2{
     font-size: 39px;
-}
-
-source{
-    margin-left: -5%;
 }
