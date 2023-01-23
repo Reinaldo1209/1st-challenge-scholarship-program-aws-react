@@ -36,6 +36,8 @@ a{
     margin-top: 5%;
 }
 
+
+
 .sm{
     width: 180px;
     height: 36px;
@@ -46,8 +48,30 @@ a{
     height: 36px;
 }
 
+button{
+    width: 364px;
+    height: 36px;
+    background: #3EB25E;
+    border-radius: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFF;
+    text-decoration:none;
+    padding: 6px;
+    display: block;
+    margin-top: 5%;
+    border: 0px;
+    font-size: 16px;
+}
+
+button:hover{
+    background: #FFFF7D;
+    color: black;
+}
+
 table{
     margin-left: 5%;
+    
 }
 
 a:hover{
@@ -75,6 +99,7 @@ label{
     margin-top: 10%;
 }
 
+
 @media screen and (max-width:1250px){
     h3,label{
         font-size: 16px;
@@ -91,6 +116,7 @@ label{
     .main{
         margin-left: -5%;
         font-size: 16px;
+        width: 80%;
         
     }
 }
@@ -116,6 +142,20 @@ input[type = "email"],input[type = text]{
     height: 40px;
     border: solid black 0.8px;
     margin-bottom: 5.7%;
+    padding: 5px;
+}
+
+input[type="number"]{
+    width: 30%;
+    border-radius: 20px;
+    height: 40px;
+    border: solid black 0.8px;
+    margin-bottom: 5.7%;
+    padding: 5px;
+}
+
+input:invalid{
+    border: solid red 2px;
 }
 
 .age{
@@ -129,3 +169,4 @@ input[type = "email"],input[type = text]{
         height: 25px;
     }
 }
+
