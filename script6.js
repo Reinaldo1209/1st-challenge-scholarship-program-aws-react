@@ -6,7 +6,7 @@ function validar(){
     if(nome && number && validateEmail(email) && !ageok(number))
     window.location.href = "index.html";
     else
-    alert('Preencha os campos em vermelho')
+    alert('Fill in the fields')
 }
 
 function validateEmail(email) {
