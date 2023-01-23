@@ -9,6 +9,9 @@ function validar(){
         valid = true}
     else if(document.getElementById("resources-experience").checked){
         valid = true}
+    else if(document.getElementById("a").value == 0){
+        valid = true
+    }
 
     if(valid){
         window.location.href = "index5.html";

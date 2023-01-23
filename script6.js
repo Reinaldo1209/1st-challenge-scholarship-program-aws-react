@@ -4,7 +4,7 @@ function validar(){
     var age = document.getElementById('number').value;
 
     if(nome && number && validateEmail(email) && !ageok(number))
-    window.location.href = "index.html";
+    window.location.href = "index7.html";
     else
     alert('Fill in the fields')
 }

@@ -11,6 +11,9 @@ function validar(){
         valid = true}
     else if(document.getElementById("operate-cryptocurrency").checked){
         valid = true}
+    else if(document.getElementById("a").value == 0){
+        valid = true
+    }
 
     if(valid){
         window.location.href = "index4.html";

@@ -1,10 +1,12 @@
+var textArea = document.querySelector('textarea')
+
+textArea.addEventListener('input', function(){
+    let caracterMax = textArea.maxLength;
+    let digitando = textArea.value.length;
+
+    document.querySelector('span').innerText = (caracterMax - digitando)
+})
+
 function validar(){
-    var email = document.getElementById('msg').value;
-
-    if(msg)
-    window.location.href = "index6.html"
-    
-    else
-    alert('sss')
+    window.location.href = "index6.html";
 }
-
