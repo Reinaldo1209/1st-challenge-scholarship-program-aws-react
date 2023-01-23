@@ -116,7 +116,7 @@ label{
     .main{
         margin-left: -5%;
         font-size: 16px;
-        width: 80%;
+        width: 90%;
         
     }
 }
@@ -154,10 +154,6 @@ input[type="number"]{
     padding: 5px;
 }
 
-input:invalid{
-    border: solid red 2px;
-}
-
 .age{
     width: 50%;
 }
@@ -168,5 +164,10 @@ input:invalid{
         margin-bottom: 1%;
         height: 25px;
     }
+}
+
+::placeholder{
+    font-size: 16px;
+    text-transform: uppercase;
 }
 

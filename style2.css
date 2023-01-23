@@ -81,6 +81,12 @@ a{
     }
 }
 
+@media screen and(max-width:800px){
+    h2{
+        font-size: 30px;
+    }
+}
+
 table{
     width: 380px;
     height: 23px;
